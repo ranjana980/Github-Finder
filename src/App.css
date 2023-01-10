@@ -1,12 +1,58 @@
 .App {
   text-align: center;
+  /* background-color: antiquewhite; */
 }
-
+body{
+  background-color: whitesmoke;
+  /* filter: drop-shadow(1px 1px 1px); */
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+.css-cpgvjg-MuiSnackbar-root{
+  position:  relative !important;
+}
+.css-1eqdgzv-MuiPaper-root-MuiSnackbarContent-root {
+  -webkit-box-flex: initial;
+  -webkit-flex-grow: initial;
+  -ms-flex-positive: initial;
+  flex-grow: initial;
+  min-width: 100px !important;
+  height: 35px;
+}
+img{
+  border-radius: 50%;
+}
+.view{
+  width: 80%;
+  justify-content: space-between;
+}
 
+@media only screen and ((max-width:480px ) ) {
+  .view{
+    width: 90%;
+   
+  }
+  .main-div{
+    margin-top: 30px;
+    /* margin-left:10px; */
+    width: 100%;
+  
+  }
+  .search{
+    /* width: 50%; */
+    margin-top: 30px;
+  }
+  .repos{
+    padding: 1.5rem;
+    margin-top: 35px;
+  }
+  .bg-white{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
